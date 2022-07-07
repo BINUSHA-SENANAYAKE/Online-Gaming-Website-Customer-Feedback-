@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Nunito";
+  color: white;
+  margin-bottom: 35px;
+}
+
+.nav-bar-area > nav {
+  background-color: #363636;
+  display: flex;
+  align-items: center;
+  height: 7vh;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.nav-bar-area ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-bar-area li {
+  margin: 20px;
+  cursor: pointer;
+}
+
+.nav-account {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-account i {
+  margin-right: 10px;
+}
+
+.page-container {
+  background: url("../images/feedbackbuttons.jpeg");
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+
+.page-container button {
+  width: 200px;
+  height: 50px;
+  margin: 0 40px;
+  background-color: #0076e3;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  background-color: #363636;
+  text-align: center;
+  color: #f4f4f4;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons {
+  padding-top: 1rem;
+}
+
+.icons a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin: 0.5rem;
+  color: #f4f4f4;
+}
+
+.company-name {
+  font-size: 16px;
+  margin-top: 0.5rem;
+  font-family: "Nunito", sans-serif;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
